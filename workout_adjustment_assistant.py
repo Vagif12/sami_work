@@ -2,7 +2,6 @@ import streamlit as st
 from services.data_ingestion_service import fake_system_data_workout_and_skipping_assistant
 from services.ai_assistant_service import AssistantService
 from services.ai_prompts_service import PromptType
-from ai_prompts_service import PromptType
 
 st.title("Workout Adjustment Assistant")
 if "messages" not in st.session_state:
