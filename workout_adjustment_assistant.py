@@ -19,8 +19,6 @@ option = st.selectbox(
     placeholder="Please choose an option..",
 )
 
-st.write(f"summary: {st.session_state.session_history_summary}")
-
 if option == "I'd like to adjust something else":
     with st.chat_message("assistant"):
         st.write("I'd love to help you with adjusting your workout plan. What would you like to adjust?")
